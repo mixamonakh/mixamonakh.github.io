@@ -1,0 +1,17 @@
+User-agent: Yandex
+Disallow: /confidentiality.html
+Disallow: /css/
+Disallow: /js/
+Disallow: /mailer/
+User-agent: Googlebot
+Disallow: /confidentiality.html
+Disallow: /css/
+Disallow: /js/
+Disallow: /mailer/
+User-agent: *
+Disallow: /confidentiality.html
+Disallow: /css/
+Disallow: /js/
+Disallow: /mailer/
+
+Sitemap: https://style-plitka.ru/sitemap.xml
