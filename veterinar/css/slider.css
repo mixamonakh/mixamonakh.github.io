@@ -1,0 +1,135 @@
+.slider {
+    margin: 100px 0;
+}
+.itcss {
+    max-width: 960px;
+}
+
+.slider__title {
+    margin-bottom: 40px;
+}
+
+.itcss__wrapper {
+    border-radius: 25px;
+}
+.itcss__items {
+
+}
+.itcss__item {
+    height: 320px;
+    overflow: hidden;
+    position: relative;
+    counter-increment: slide;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.itcss__item::after {
+    content: counter(slide);
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #fff;
+    font-style: italic;
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+/* Кнопочки */
+.itcss__control_prev {
+    border-radius: 25px;
+    margin-left: 10px;
+}
+.itcss__control_next {
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.slider__block {
+    width: 500px;
+    min-height: 200px;
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.slider__name {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.slider__divider {
+    width: 50px;
+    height: 2px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+.slider__data {
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+.slider__text {
+    font-size: 17px;
+}
+
+@media (max-width: 768px) {
+    .itcss__control_prev {
+        display: flex;
+        top: 72%;
+    }
+    .itcss__control_next {
+        display: flex;
+        top: 72%;
+    }
+    .slider {
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 550px) {
+    .slider {
+        margin: 0;
+    }
+    .itcss__item {
+        background-color: #fff;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    .itcss__control_prev {
+        display: flex;
+        top: 72%;
+    }
+    .itcss__control_next {
+        display: flex;
+        top: 72%;
+    }
+    .slider__block {
+        padding: 20px 20px 55px 20px;
+        margin: 0 20px;
+        min-height: 230px;
+    }
+    .itcss__control_prev {
+        top: 75%;
+        margin-left: 20px;
+    }
+    .itcss__control_next {
+        top: 75%;
+        margin-right: 20px;
+    }
+    .slider__text {
+        font-size: 16px;
+    }
+    .itcss__control {
+        background: inherit;
+    }
+}
+@media (max-width: 380px) {
+    .itcss__control_prev {
+        top: 79%;
+    }
+    .itcss__control_next {
+        top: 79%;
+    }
+}

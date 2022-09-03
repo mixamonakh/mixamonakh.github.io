@@ -1,0 +1,50 @@
+.accordion {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    padding: 16px;
+    width: 70%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: .7s;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.active, .accordion:hover {
+    background-color: #383838;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "";
+}
+
+.panel {
+    padding: 0 18px;
+    color: #212121;
+    background-color: #fff;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .7s ease-out;
+}
+
+.price__mobile {
+
+}
+
+@media (max-width: 545px) {
+    .accordion {
+        width: 100%;
+        font-size: 16px;
+    }
+}

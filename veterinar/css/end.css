@@ -1,0 +1,82 @@
+.work-scheme .work-scheme-list  .text_cat{
+    width: 600px;
+}
+
+.tw{
+    width: 100%;
+
+}
+
+
+.crema-types{
+    margin-top: 200px;
+}
+
+
+@media (min-width: 600px){
+    .work-scheme .work-scheme-list li:nth-child(2n) .text::before {
+    right: -3px;
+    top: 66px!important;
+}
+.work-scheme .wsl .text:before{
+    top:60%!important;
+}
+.work-scheme .wsl .twsl:before{
+    top:50%1!important;
+}
+}
+.crema-list .order-button {
+    align-self: flex-end;
+}
+
+@media (max-width: 768px){
+    .twt .dmd{
+          overflow: auto;
+    margin-bottom: 0;
+
+    }
+
+    .mdn{
+        display: none;
+    }
+    .pld{
+        white-space: unset;
+    }
+  
+}
+
+@media (min-width: 769px){
+    .dmm{
+        display: none;
+    }
+}
+
+
+.strong{
+    margin-top: 15px;
+    display: block;
+}
+
+/* .front-block h1{
+    letter-spacing: unset;
+    font-size: 126px;
+    margin-bottom: 0px;
+
+} */
+
+
+
+@media (min-width:1370px){
+ .bg88{
+    object-position: 0px -198px!important;
+   
+    
+ }
+}
+
+
+@media (max-width: 768px){
+    .mdn{
+        display: none;
+    }
+}

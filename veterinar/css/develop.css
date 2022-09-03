@@ -1,0 +1,16 @@
+#checkoutmap{
+	color: #000;
+}
+#checkoutmap .map-popup h5{
+	margin-bottom: 5px;
+	font-size: 16px;
+
+}
+#checkoutmap .map-popup span{
+	font-size: 12px;
+	
+}
+
+input[type="text"].error, textarea.error{
+	border-bottom-color: rgb(240, 55, 55)!important;
+}

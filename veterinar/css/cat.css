@@ -1,0 +1,158 @@
+.flc{
+    flex-direction: column;
+
+
+}
+
+
+.flc h2, .flc h1{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+font-size: 126px;
+font-weight: 700;
+text-transform: uppercase;
+line-height: 100px;
+padding: 0 15px;
+}
+.flc h1{
+    line-height: 130px;
+    margin-bottom: 0;
+
+
+}
+
+
+.animal_blok{
+   
+}
+
+.animal_blok_content{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1136px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    align-items: center;
+
+}
+.animal_blok_content_item p{
+    max-width: 97%;
+}
+
+.animal_blok_content_item p span{
+    display: block;
+    font-size: 36px;
+    font-family: 'Yanone Kaffeesatz', sans-serif; 
+    font-weight: 700; 
+    line-height: 47px;
+    text-transform: uppercase;
+    color: #3777DE;
+}
+
+@media (min-width: 992px)
+{
+   .adv2 .adv-item {
+        max-width: 20%;
+        flex: 0 0 20%;
+        }
+   
+}
+
+
+.adv2 .adv-list p{
+    padding: 0;
+}
+
+.adv2{
+    margin-bottom: 0px;
+}
+
+.anm .animal_blok_content{
+margin-bottom: 0;
+}
+
+.anm{
+    background: #f7f5f5;
+    padding-top: 10px;
+}
+
+
+@media (max-width: 1080px){
+    .animal_blok_content
+            {
+                    max-width: 97%;
+            }
+}
+@media (max-width: 768px){
+    .flc h2{
+        font-size: 50px;
+        line-height: 47px;
+    }
+    .flc h1{
+        display: block;
+        font-size: 50px!important;
+        line-height: 47px;
+    }
+    .fbc{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 0;
+
+    }
+    .animal_blok_content{
+ flex-direction: column;
+    text-align: center;
+    }
+   .advantages{
+background: unset;
+   }
+   .adlast{
+    margin-top: 185px!important;
+
+   }
+}
+
+
+.crema{
+    background-image: url('../images/bg/cat_bg.jpg');
+    background-position: center 130px;
+
+}
+
+
+@media (max-width: 768px){
+    .crema{
+        background-image: unset!important;
+        background-position: center;
+    }
+}
+
+
+@media (min-width: 768px){
+    .bg{
+        position: absolute;
+        top: 130px;
+        object-position: 0px -143px;
+        object-fit: cover;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .crema{
+        position: relative;
+    }
+}
+
+
+@media (max-width: 768px){
+    .bg{
+        display: none;
+    }
+}
+
+@media (max-width: 545px){
+    .animal_blok_content_item p {
+        text-align: left;
+        padding: 10px;
+    }
+}
