@@ -1,0 +1,319 @@
+@media (max-width: 1500px)
+    footer
+        .developed
+            margin: 0
+@media (max-width: 1200px)
+    .subheader_text_mail
+        position: absolute
+        right: 30px
+    .services
+        padding: 100px 60px 60px 60px
+    .promo
+        &_header
+            &_subheader
+                font-size: 60px
+            &_descr
+                margin-top: 35px
+    .company
+        padding: 10px 0 120px 0
+        min-height: 690px
+        &_header
+            font-size: 36px
+        &_subheader
+            font-size: 14px
+            width: 57%
+    footer
+        .developed
+            margin-top: 6px
+@media (max-width: 991px)
+    .header
+        padding: 25px 0 10px 0
+        &_logo
+            margin-top: 5px
+    header
+        min-height: 150px
+        .menu_item
+            margin-top: 15px
+    .promo
+        height: 100%
+        &_header
+            margin: 60px 0 40px 0
+            &_subheader
+                font-size: 34px
+            &_descr
+                margin-top: 2px
+                font-size: 16px
+                line-height: none
+    .tracking
+        min-height: 510px
+        .block
+            &_grey,&_grey2
+                width: 400px
+                height: 510px
+        &_block
+            margin-top: 70px
+            &_divider
+                width: 110px
+            &_header
+                line-height: inherit
+                font-size: 25px
+            &_subheader
+                line-height: inherit
+                font-size: 15px
+            &_btn
+                width: 190px
+                font-size: 15px
+        &_car
+            margin-top: 105px
+        &_blockarrow
+            &_right
+                margin-top: 103px
+    .services
+        padding: 70px 60px 60px 30px
+        min-height: 630px
+        &_block
+            height: 150px
+            &_text
+                font-size: 15px
+                margin: 0
+            &_block
+                &_img
+                    height: 100%
+    .company
+        &_subheader
+            width: 100%
+        &_wraper
+            &_white
+                width: 195px
+            &_img
+                width: 195px
+        &_block
+            &_grey
+                height: 600px
+                width: 450px
+    .subheader_text_phone
+        width: 150px
+        display: block          
+@media (max-width: 767px)
+    .subheader
+        &_text
+            text-align: center
+    header
+        height: 100px
+        min-height: 120px
+        position: fixed
+        width: 100%
+        z-index: 3
+        background-color: rgba(47, 52, 58, 0.5)
+        .header
+            padding: 10px 0 0 0
+            
+            &_logo
+                &_divider
+                    width: 0
+                    height: 0
+            &_offices
+            .menu
+                position: fixed
+                flex-direction: column
+                justify-content: center
+                align-items: center
+                top: 0
+                left: -100%
+                width: 70%
+                height: 100vh
+                padding: 20px 15px
+                background-color: rgba(0, 0, 0, .8)
+                transition: 0.6s all
+                &_active
+                    left: 0
+                &_item
+                    padding-right: 0
+                    border: 0
+                    margin: 10px 0
+                &_link
+                    font-size: 20px
+            .hamburger
+                display: block
+                position: absolute
+                right: 10px
+                top: 50%
+                transform: translateY(-50%)
+                width: 26px
+                height: 12px
+                span
+                    display: block
+                    height: 2px
+                    width: 100%
+                    background-color: #fff
+                    margin-bottom: 4px
+                    transition: 0.5s all
+                &_active
+                    span
+                        margin-bottom: -2px 
+                        &:nth-child(1)
+                            transform: translateY(3px) rotate(-45deg)
+                        &:nth-child(2)
+                            display: none
+                        &:nth-child(3)
+                            transform: translateY(3px) rotate(45deg)
+    .promo
+        padding-top: 150px
+        &_header
+            &_subheader
+                line-height: inherit
+                font-size: 32px
+    .tracking
+        text-align: center
+        .block
+            &_grey,&_grey2
+                width: 300px
+                height: 720px
+        &_block
+            margin-top: 40px
+            &_divider
+                margin: 0 auto
+            &_header
+                margin-top: 20px
+            &_subheader
+                margin-top: 15px
+            &_btn
+                
+        &_blockarrow
+            &_right
+                margin-top: 10px
+                justify-content: space-evenly
+            &_left
+                margin-top: 10px
+                justify-content: space-evenly
+        &_car
+            margin-top: 35px
+    .services
+        text-align: center
+        &_divider
+            margin: 0 auto
+        &_header
+            font-size: 25px
+            margin: 20px 0 20px 0
+        &_block
+            &_text
+    .company
+        text-align: center
+        &_divider
+            margin: 15px auto
+        &_header
+            font-size: 25px
+        &_wraper
+            &_white,&_img
+                width: 165px
+            &_white
+                &_number
+                    font-size: 45px
+                    line-height: inherit
+                &_header
+                &_subheader
+    footer
+        text-align: center
+        padding: 20px 0 20px 0
+        .footer
+            margin-top: 10px
+            &_subheader
+                margin-top: 5px
+        .number
+            margin-top: 5px
+        .developed
+            text-align: center
+@media (max-width: 575px)
+    .subheader_text_mail
+        display: none
+    .subheader_text_phone
+        display: block
+        width: 150px
+        position: absolute
+        right: -5px
+    header
+        .subheader
+            &_language
+                word-spacing: 3px
+                text-align: left
+            &_text
+                font-size: 13px
+                a
+                    &:hover
+                        font-size: 12px
+                        opacity: 1
+                        transition: 1
+                &_mail
+                    text-align: right
+            &_language
+                a
+                    opacity: 1
+                    
+        .header
+            &_offices
+                &_text
+                    &:hover
+                        color: #FFFFFF
+    .promo
+        &_header
+            &_subheader
+                display: flex
+                justify-content: center
+    .tracking
+        padding: 0 0 20px 0
+        &_car
+            width: 100%
+        .block
+            &_grey, &_grey2
+                width: 100%
+                height: 100%
+        &_block
+            &_btn
+                &:hover
+                    font-size: 15px
+                    box-shadow: 0 0 0 $goldcolor
+        &_blockarrow
+            &_text
+                &:active
+                    color: $goldcolor
+                &:visited
+                    color: $goldcolor
+    .services
+        padding: 50px 40px
+        &_block
+            height: 170px
+            &:hover > .services_block_block
+                background: #393F47
+            &:hover
+                background: #393F47
+            &:hover > .services_block_block > .services_block_block_img
+                background-image: url("../icons/airplane.png")
+                background-repeat: no-repeat
+                background-position: center center
+    .company
+        &_block
+            &_grey
+                width: 100%
+        &_subheader
+            margin: 10px auto
+            width: 100%
+            
+        &_wraper
+            display: flex
+            justify-content: center
+    footer
+        .footer
+            &_subheader
+                a
+                    &:hover
+                        font-size: 14px
+                        opacity: 1
+        .number
+            a
+                &:hover
+                    font-size: 14px
+                    opacity: 1
+
+    
+
+                

@@ -1,0 +1,375 @@
+a
+    text-decoration: none
+header
+    height: 145px
+    background-color: $darkcolor
+.subheader
+    background-color: $goldcolor
+    height: 45px
+    padding: 16px 0 16px 0
+    position: fixed
+    width: 100%
+    z-index: 3
+    &_text
+        font-weight: normal
+        font-size: 12px
+        line-height: 14px
+        &_mail
+            text-align: right
+        a
+            color: #FFFFFF
+    &_language
+        a
+            opacity: 0.5
+            &:hover
+                color: #FFFFFF
+                opacity: 1
+.header
+    padding: 27px 0 27px 0
+    position: absolute
+    top: 50px
+    width: 100%
+    z-index: 1
+    &_logo
+        display: flex
+        &_divider
+            width: 1px
+            height: 46px
+            background-color:#F2F2F2
+            margin-left: 30px
+    &_offices
+        display: flex
+        justife-content: space-between
+        margin-top: 10px
+        &_text
+            font-weight: normal
+            font-size: 14px
+            letter-spacing: 0.05em
+            color: #FFFFFF
+            margin-left: 10px
+            &:hover
+                color: #e6aa12
+                transition: 0.5s all
+nav
+    .menu
+        display: flex
+        justify-content: space-between
+        list-style-type: none
+        &_item
+            margin-top: 10px
+        &_link
+            font-weight: normal
+            font-size: 14px
+            letter-spacing: 0.05em
+            text-transform: uppercase
+            color: #FFFFFF
+            &:hover
+                color: #e6aa12
+                transition: 0.5s all
+.hamburger
+    display: none
+    
+.promo
+    height: 620px
+    background: url(../img/header.jpg) center (center / cover) no-repeat
+    &_header
+        border: 1px solid #C8A35F
+        padding: 45px 72px 45px 71px
+        margin-top: 155px
+        &_subheader
+            font-weight: bold
+            font-size: 64px
+            text-align: center
+            letter-spacing: 0.05em
+            text-transform: uppercase
+            color: #FFFFFF
+        &_descr
+            margin-top: 45px
+            font-weight: normal
+            font-size: 18px
+            text-align: center
+            color: #FFFFFF
+.tracking
+    background-color: $darkcolor
+    min-height: 561px
+    position: relative
+    display: flex
+    &_block
+        margin-top: 120px
+        position: relative
+        z-index: 2
+        &_divider
+            background-color: $goldcolor
+            width: 90px
+            height: 6px
+        &_header
+            font-weight: bold
+            font-size: 40px
+            line-height: 49px
+            letter-spacing: 0.05em
+            text-transform: uppercase
+            color: #FFFFFF
+            margin-top: 40px
+        &_subheader
+            font-weight: normal
+            font-size: 18px
+            line-height: 28px
+            color: #FFFFFF
+            margin-top: 30px
+        &_btn
+            border: none
+            width: 220px
+            height: 55px
+            background-color: $goldcolor
+            font-weight: 500
+            font-size: 16px
+            line-height: 25px
+            text-align: center
+            letter-spacing: 0.1em
+            text-transform: uppercase
+            color: #FFFFFF
+            margin-top: 50px
+            &:hover
+                box-shadow: 1px 1px 1px $goldcolor
+                transform: scale(1.05)
+                filter: grayscale(50%)
+                transition: 0.5s all
+    &_car
+        margin-top: 166px
+        position: relative
+        z-index: 2
+    &_blockarrow
+        position: relative
+        z-index: 2
+        &_right
+            margin-top: 156px
+            display: flex
+            justify-content: space-around
+        &_left
+            margin-top: 245px
+            display: flex
+            justify-content: space-around
+        &_text
+            font-weight: 500
+            font-size: 16px
+            line-height: 25px
+            text-align: center
+            letter-spacing: 0.1em
+            text-transform: uppercase
+            color: $goldcolor
+    .block
+        display: flex
+        justify-content: space-between
+        &_grey
+            background-color: #393F47
+            width: 755px
+            height: 561px
+            position: absolute
+            z-index: 1
+        &_grey2
+            background-color: #393F47
+            width: 755px
+            height: 561px
+            position: absolute
+            right: 0
+            top: 0
+            z-index: 1
+.services
+    min-height: 744px
+    background-color: $darkcolor
+    padding: 120px 0 60px 0
+    display: flex
+    .pnone
+        padding: 0
+    &_divider
+        width: 90px
+        height: 6px
+        background-color: $goldcolor
+    &_header
+        font-weight: bold
+        font-size: 40px
+        line-height: 49px
+        letter-spacing: 0.05em
+        text-transform: uppercase
+        color: #FFFFFF
+        margin: 40px 0 60px 0
+    &_block
+        position: relative
+        height: 180px
+        background: #393F47
+        padding: 35px 0 35px 0
+        margin: 0 1px 1px 0
+        transition: 0.5s all
+        display: flex
+        flex-direction: column
+        &:hover
+            background-color: $goldcolor
+            cursor: pointer
+    &_block
+        position: relative
+        height: 180px
+        background: #393F47
+        padding: 35px 0 35px 0
+        margin: 0 1px 1px 0
+        display: flex
+        flex-direction: column
+        &:hover > .services_block_block
+            transition: 0.5s all
+            background-color: #fff
+            cursor: pointer
+    &_block
+        position: relative
+        height: 180px
+        background: #393F47
+        padding: 35px 0 35px 0
+        margin: 0 1px 1px 0
+        display: flex
+        flex-direction: column
+        &:hover > .services_block_block > .services_block_block_img
+            transition: 0.5s all
+            background: url("../icons/airplanedark.png") center no-repeat
+            cursor: pointer
+        &_block
+            background-color: transparent
+            width: 70px
+            height: 70px
+            border-radius: 50%
+            display: flex
+            justify-content: center
+            align-items: center
+            margin: 0 auto
+            &_img
+                display: flex
+                justify-content: center
+                align-items: center
+                width: 43%
+                height: 43%
+                background-image: url("../icons/airplane.png")
+                background-repeat: no-repeat
+                background-position: center center
+        &_text
+            font-weight: bold
+            font-size: 18px
+            line-height: 22px
+            letter-spacing: 0.05em
+            text-transform: uppercase
+            color: #FFFFFF
+            text-align: center
+            margin-top: 23px
+.company
+    background-color: $darkcolor
+    min-height: 722px
+    padding: 60px 0 120px 0
+    &_block
+        display: flex
+        justify-content: center
+        &_grey
+            width: 410px
+            height: 482px
+            background-color: #393F47
+            position: absolute
+            z-index: 1
+    &_divider
+        width: 90px
+        height: 6px
+        background-color: $goldcolor
+        position: relative
+        z-index: 2
+        margin-top: 80px
+    &_header
+        font-weight: bold
+        font-size: 40px
+        letter-spacing: 0.05em
+        text-transform: uppercase
+        color: #FFFFFF
+        margin-top: 40px
+        position: relative
+        z-index: 2
+    &_subheader
+        font-weight: 300
+        font-size: 16px
+        line-height: 24px
+        letter-spacing: 1px
+        color: #FFFFFF
+        margin-top: 30px
+        position: relative
+        z-index: 2
+    &_wraper
+        position: relative
+        z-index: 2
+        display: flex
+        flex-wrap: wrap
+        margin-top: 80px
+        &_white
+            width: 212px
+            height: 160px
+            background-color: #fff
+            border: 0.25px solid #C8A35F
+            padding: 23px 0 25px 0
+            &_number
+                font-weight: bold
+                font-size: 64px
+                line-height: 75px
+                text-align: center
+                letter-spacing: 0.05em
+                text-transform: uppercase
+                color: #2F343A
+            &_header
+                font-weight: normal
+                font-size: 18px
+                line-height: 21px
+                text-align: center
+                letter-spacing: 0.05em
+                color: #000000
+            &_subheader
+                font-weight: normal
+                font-size: 12px
+                line-height: 14px
+                text-align: center
+                color: #000000
+                margin-top: 10px
+        &_img
+            background: url("../img/car2.jpg") center (center / cover) no-repeat
+            width: 212px
+            height: 160px
+            border: 0.25px solid #C8A35F
+.map
+    min-height: 450px
+    background: url("../img/maps.jpg") center (center / cover) no-repeat
+footer
+    min-height: 161px
+    background-color: $goldcolor
+    padding: 60px 0 60px 0
+    .footer
+        &_header
+            font-weight: normal
+            font-size: 14px
+            color: #F2F2F2
+            opacity: 0.8
+            margin-top: 5px
+        &_subheader
+            a
+                font-weight: normal
+                font-size: 14px
+                line-height: 16px
+                color: #2F343A
+                &:hover
+                    font-size: 15px
+                    opacity: 0.8
+                    transition: 0.5s all
+    .number
+        a
+            font-weight: normal
+            font-size: 14px
+            color: #F2F2F2
+            &:hover
+                font-size: 15px
+                opacity: 0.8
+                transition: 0.5s all
+    .developed
+        font-weight: normal
+        font-size: 14px
+        text-align: right
+        color: #2F343A
+        margin-top: 28px
+        
